@@ -1,5 +1,5 @@
 <?xml version= "1.0" encoding "UTF"-8?> 
-<!ELEMENT course list(title,description+,credits,prerequsities,semester)>
+<!ELEMENT course list (title,description+,credits,prerequsities,semester)>
 <!ELEMENT title (#PCDATA)>
 <!ELEMENT description (focus,skills)>
 <!ELEMENT credits (#PCDATA)>
@@ -12,5 +12,4 @@
     <skills> Particular emphasis is placed on collaborative writing, editing, and project-based writing.</skills>
   <credits> Credits:3</credits>
   <prerequisites>Required Prerequisites: ENG 111 </prerequisites>
-
 </course list>
